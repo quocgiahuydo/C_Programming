@@ -1,13 +1,17 @@
+// Calculate the sum of the numbers 1 to MAX
+// Harry Do
 #include <stdio.h>
 
-int f,g,y ;
+#define MAX 10
 
-int sum(int f, int g ){
-    return f+g;
+int main()
+{
+	int sum, i; 
+
+	sum = 0;
+	for (i = 1; i <= MAX; i = i + 1)
+		sum = sum + i;
+
+	printf("The sum from 1 to %d is %d\n",MAX, sum);
 }
 
-int main(void){
-    f= 2;
-    g=3;
-    y=sum(f,g);
-}

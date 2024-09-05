@@ -39,7 +39,6 @@ int main(){
 	average = sum/n;
 	printf("%f\n", sum);
 	printf("Minimum is %f\n", min);
-	printf("Maximum is %f\n", max );
-	printf("Average is %f\n", average);
+/bin/bash: line 1: wq: command not found
 }
 
